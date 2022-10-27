@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.kakao.sdk:v2-network:2.8.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e483e01e61507e325023b55082f1aeab/transformed/v2-network-2.8.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5b64c36ec61315fe65cf03617f63238b/transformed/v2-network-2.8.1/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/5b64c36ec61315fe65cf03617f63238b/transformed/v2-network-2.8.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/5b64c36ec61315fe65cf03617f63238b/transformed/v2-network-2.8.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.kakao.sdk/v2-network/2.8.1/62fdaabab0052102b5da5d05d2716bb89ed7c82c/v2-network-2.8.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

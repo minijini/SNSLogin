@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SnsLoginDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/SnsLoginDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SnsLoginDemo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SnsLoginDemo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SnsLoginDemo.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SnsLoginDemo.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SnsLoginDemo.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SnsLoginDemo.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SnsLoginDemo.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SnsLoginDemo.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/snsLogin/SnsLoginDemo.snsLogin.iml" filepath="$PROJECT_DIR$/.idea/modules/snsLogin/SnsLoginDemo.snsLogin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/snsLogin/SnsLoginDemo.snsLogin.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/snsLogin/SnsLoginDemo.snsLogin.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/snsLogin/SnsLoginDemo.snsLogin.main.iml" filepath="$PROJECT_DIR$/.idea/modules/snsLogin/SnsLoginDemo.snsLogin.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/snsLogin/SnsLoginDemo.snsLogin.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/snsLogin/SnsLoginDemo.snsLogin.unitTest.iml" />
+    </modules>
+  </component>
+</project>
