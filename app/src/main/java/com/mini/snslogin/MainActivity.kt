@@ -1,11 +1,11 @@
-package com.mini.snslogindemo
+package com.mini.snslogin
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Toast
-import com.mini.snslogin.SnsLogin
 import com.mini.snslogin.login.google.GoogleLoginLauncher
+import com.mini.snslogin.R
 
 /**
  * this demo will not work properly.
@@ -30,8 +30,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 //        loginWithNaver()
-
-        hashTokenWithKakao()
+        loginWithKakao()
+//        hashTokenWithKakao()
     }
 
 
@@ -42,10 +42,11 @@ class MainActivity : AppCompatActivity() {
 
     private fun loginWithKakao() {
         SnsLogin.kakaoLogin(this, onSuccess = {
-            onSuccess(it)
-        }, onFailure = {
-            onFailure(it.message ?: "")
+            onSuccess(it.toString())
+        }, onFailure = { throwable, msg ->
+            onFailure(msg)
             SnsLogin.kakaoLogout()
+
         })
     }
 

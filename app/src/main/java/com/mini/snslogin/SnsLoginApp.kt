@@ -1,7 +1,6 @@
-package com.mini.snslogindemo
+package com.mini.snslogin
 
 import android.app.Application
-import com.mini.snslogin.SnsLogin
 
 class SnsLoginApp : Application() {
 
@@ -10,7 +9,7 @@ class SnsLoginApp : Application() {
         SnsLogin
             .withGoogle(this)
             .withTwitter(this)
-            .withKakao(this, appKey = "dad5433de792bb67c1217f65c5df43f0")
+            .withKakao(this, appKey = "0123eaa81cb8ff3ec79acbf922e50f69")
             .withNaver(this, clientId = "", clientSecret = "", clientName = "")
     }
 }

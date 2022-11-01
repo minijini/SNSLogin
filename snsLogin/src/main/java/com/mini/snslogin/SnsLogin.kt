@@ -8,6 +8,7 @@ import com.kakao.sdk.common.KakaoSdk
 import com.mini.snslogin.login.google.GoogleAuthUtil
 import com.mini.snslogin.login.kakao.KakaoAccessToken
 import com.mini.snslogin.login.kakao.KakaoLogin
+import com.mini.snslogin.login.kakao.KakaoLoginResult
 import com.mini.snslogin.login.naver.NaverLogin
 import com.mini.snslogin.login.naver.NaverLoginResult
 import com.mini.snslogin.login.twitter.TwitterLogin
@@ -100,8 +101,8 @@ object SnsLogin {
 
     fun kakaoLogin(
         context: Context,
-        onSuccess: (token: KakaoAccessToken) -> Unit,
-        onFailure: (Throwable) -> Unit
+        onSuccess: (KakaoLoginResult) -> Unit,
+        onFailure: (Throwable,String) -> Unit
     ) {
         checkSdkInitialized(AuthProvider.Kakao)
         KakaoLogin.login(context, onSuccess, onFailure)

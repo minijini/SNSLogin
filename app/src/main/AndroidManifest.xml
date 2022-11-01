@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.mini.snslogindemo">
+    package="com.mini.snslogin">
 
     <!-- 인터넷 사용 권한 설정-->
     <uses-permission android:name="android.permission.INTERNET" />
@@ -9,7 +9,7 @@
 
     <application
         android:allowBackup="true"
-        android:name="com.mini.snslogindemo.SnsLoginApp"
+        android:name=".SnsLoginApp"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
@@ -19,7 +19,7 @@
         android:theme="@style/Theme.SnsLoginDemo"
         tools:targetApi="31">
         <activity
-            android:name="com.mini.snslogindemo.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -39,7 +39,7 @@
                 <!-- Redirect URI: "kakao${NATIVE_APP_KEY}://oauth" -->
                 <data
                     android:host="oauth"
-                    android:scheme="kakaodad5433de792bb67c1217f65c5df43f0" />
+                    android:scheme="kakao0123eaa81cb8ff3ec79acbf922e50f69" />
             </intent-filter>
         </activity>
     </application>

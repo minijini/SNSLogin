@@ -19,3 +19,7 @@ internal fun Int?.toSafe() : Int{
 internal fun String?.toSafe() : String{
     return this ?: ""
 }
+
+internal fun Long?.toSafe() : Long{
+    return this ?: 0
+}

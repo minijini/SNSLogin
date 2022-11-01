@@ -1,4 +1,4 @@
-package com.mini.snslogindemo
+package com.mini.snslogin
 
 import org.junit.Test
 
